@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papasa, kaya? Cosmetics</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    
+
+    <header class="header">
+
+        <a href="#home" class="logo"> <img src="images/logo.png" alt=""> </a>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            
+        </div>
+
+    </header>
+
+    <!-- navbar section  -->
+
+    <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="#home">home</a>
+        <a href="#shop">shop</a>
+        <a href="#gallery">gallery</a>
+        <a href="#team">team</a>
+        <a href="#arrivals">arrivals</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="slide active">
+            <div class="content">
+                <img src="images/content-img-1.png" alt="">
+                <span>new arrivals 2023</span>
+                <h3>Skin Care</h3>
+                <a href="#" class="btn">read more</a>
+                <div class="controls">
+                    <div class="fas fa-angle-left" onclick="prev()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/home-img-1.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <img src="images/content-img-2.png" alt="">
+                <span>Upcoming this 2023</span>
+                <h3>accessories</h3>
+                <a href="#" class="btn">read more</a>
+                <div class="controls">
+                    <div class="fas fa-angle-left" onclick="prev()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/home-img-2.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <img src="images/content-img-3.png" alt="">
+                <span>new collections</span>
+                <h3>Cosmetics</h3>
+                <a href="#" class="btn">read more</a>
+                <div class="controls">
+                    <div class="fas fa-angle-left" onclick="prev()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/home-img-3.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- category section starts  -->
+
+    <section class="category">
+
+        <a href="#" class="box">
+            <img src="images/category-1.png" alt="">
+            <p>cosmetics</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-2.png" alt="">
+            <p>makeup</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-3.png" alt="">
+            <p>powder</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-4.png" alt="">
+            <p>lotions</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-5.png" alt="">
+            <p>lipstick</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-6.png" alt="">
+            <p>mascara</p>
+        </a>
+
+    </section>
+
+    <!-- category section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <div class="content">
+            <span>Made from Korea</span>
+            <h3>Natural Cosmetic Purity for Every Skin</h3>
+            <p>Cosmetics with 100% Natural Ingredients. Processing by modern machine and research by many Cosmetics & Dermatologist Specialist in Korea.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- shop section starts  -->
+
+    <section class="shop" id="shop">
+
+        <div class="heading">
+            <h1>Our Latest Products</h1>
+            <p>Wide range of organic products all are handpicker and for you to see. In here, we show some ouy new products for you. For more detail you can click the link below to see all our products latest products.</p>
+        </div>
+
+        <div class="swiper products-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/product-1.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Pinkclash</p>
+                        <div class="price">₱149.00 <span>₱229.00</span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/product-2.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Sace Lady</p>
+                        <div class="price">₱199.00 <span>₱250.00</span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/product-3.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Kylie</p>
+                        <div class="price">₱3,000.00 <span>₱3,800,00</span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/product-4.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Morphe</p>
+                        <div class="price">₱6,500.00 <span>₱7,000.00</span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/product-5.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Mascara</p>
+                        <div class="price">₱150.00<span>₱200.00</span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/product-6.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Beauty Brush</p>
+                        <div class="price">₱899.00 <span>₱950.00</span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/product-7.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Facial Wash</p>
+                        <div class="price">₱499.00<span>₱550.00</span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/product-8.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Sunscreen</p>
+                        <div class="price">₱290.00<span>₱320.00</span></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- shop section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <div class="heading">
+            <h1>Our Cosmetics Facts</h1>
+            <p>Inspired by hydration and japan's beauty rituals, Enha Cosmetics focuses on the core elemets of skincare to combine powerful ingredients backed by science and authentically.</p>
+        </div>
+
+        <div class="lightbox">
+            <a href="images/img-1.jpg"><img src="images/img-1.jpg" alt=""></a>
+            <a href="images/img-2.jpg"><img src="images/img-2.jpg" alt=""></a>
+            <a href="images/img-3.jpg"><img src="images/img-3.jpg" alt=""></a>
+            <a href="images/img-4.jpg"><img src="images/img-4.jpg" alt=""></a>
+            <a href="images/img-5.jpg"><img src="images/img-5.jpg" alt=""></a>
+            <a href="images/img-6.jpg"><img src="images/img-6.jpg" alt=""></a>
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+    
+    <!-- arrivals section starts  -->
+
+    <section class="arrivals" id="arrivals">
+
+        <div class="heading">
+            <h1>Products Suited to your Need</h1>
+            <p></p>
+        </div>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Fenty Beauty</p>
+                        <div class="price">₱2,500.00</div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>ColourPop</p>
+                        <div class="price">₱450.00</div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Revlon Glow</p>
+                        <div class="price">₱1,500.00</div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Jo Malone Cologne</p>
+                        <div class="price">₱3,000.00</div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Blushies</p>
+                        <div class="price">₱250.00                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Serum</p>
+                        <div class="price">₱1,005.00</div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-7.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Body Mist</p>
+                        <div class="price">1,200.00</div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-8.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Sunscreen</p>
+                        <div class="price">₱135.00</div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- arrivals section ends -->
+
+    <!-- reviews section starts  -->
+
+    <section class="reviews">
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="user">
+                        <img src="images/pic-1.png" alt="">
+                        <div class="info">
+                            <h3>Josh Culllen</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text">I absolutely love the design and styles that Ehya creates. There are so different and innovative. I have bought several times from the collections and what I love is that they really are timeless pieces.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="user">
+                        <img src="images/pic-2.png" alt="">
+                        <div class="info">
+                            <h3>Felip</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text">Started my glow-up journey with this shop. Nice products and service!</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="user">
+                        <img src="images/pic-3.png" alt="">
+                        <div class="info">
+                            <h3>Pablo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text">Honestly, one of the best cosmetics hub in the world! never thought i'd find a shop like this!</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- reviews section ends  -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <div class="heading">
+            <h1>our daily blogs</h1>
+            <p>Who got the power? YOU got the power!</p>
+        </div>
+
+        <div class="swiper blogs-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/img-1.jpg" alt="">
+                        <div class="icons">
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                            <a href="#"> <i class="fas fa-clock"></i> 21st may, 2021 </a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>YES, I'm gonna love me!</h3>
+                        <p>Let's learn to understand and love ourself for who we are. At the end of the day, its still you and yourself.
+                        </p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/img-2.jpg" alt="">
+                        <div class="icons">
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                            <a href="#"> <i class="fas fa-clock"></i> 21st may, 2021 </a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Lemme blow their mind with this!</h3>
+                        <p>SLAY every moments and "auras" with our best product!</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/img-3.jpg" alt="">
+                        <div class="icons">
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                            <a href="#"> <i class="fas fa-clock"></i> 21st may, 2021 </a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>It's me, hi, I'm NOT the problem.</h3>
+                        <p>Forgive but never forget! don't keep up with the drama, keep up with us!</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/img-4.jpg" alt="">
+                        <div class="icons">
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                            <a href="#"> <i class="fas fa-clock"></i> 21st may, 2021 </a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>WHO honestly gives a d*mn?</h3>
+                        <p>BE WHO YOU ARE, KWEEN!</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/img-5.jpg" alt="">
+                        <div class="icons">
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                            <a href="#"> <i class="fas fa-clock"></i> 21st may, 2021 </a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Hate me now...Hate me even more idc</h3>
+                        <p>haTERS GONNA HATE ANYWAY... SO WHY BOTHER?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/img-6.jpg" alt="">
+                        <div class="icons">
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                            <a href="#"> <i class="fas fa-clock"></i> 21st may, 2021 </a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>she left NO crumps</h3>
+                        <p>if I can you can! leave the pieces of you owning the moment!</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>enya</h3>
+                <p> </i>Build a modern and creative website with crealand</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Product</h3>
+                <a class="link" href="#home"> </i> Landingpage</a>
+                <a class="link" href="#shop"> </i> Features</a>
+                <a class="link" href="#gallery"> </i> Documents</a>
+                <a class="link" href="#arrivals"> </i> Refereal Program</a>
+                <a class="link" href="#blogs"> </i> Pricing</a>
+            </div>
+
+            <div class="box">
+                <h3>Service</h3>
+                <a href="#" class="link"> </i> Documenation </a>
+                <a href="#" class="link"> </i> Design </a>
+                <a href="#" class="link"> </i> Themes </a>
+                <a href="#" class="link"> </i> Illustrations </a>
+                <a href="#" class="link"> </i> UI Kit</a>
+            </div>
+
+            <div class="box">
+                <h3>Company</h3>
+                <a href="#" class="link"> </i> About </a>
+                <a href="#" class="link"> </i> Terms </a>
+                <a href="#" class="link"> </i> Privacy Policy </a>
+                <a href="#" class="link"> </i> Careers </a>
+            </div>
+
+        </div>
+
+        <div class="credit"><a target="_blank" href="https://itsazzad.com/"><span>Copyright 2019</span></a> Crafted with love. <a href="#" class="fas fa-heart"></a>
+</div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link      -->
+    <script src="js/script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .lightbox'));
+    </script>
+
+</body>
+
+</html>
